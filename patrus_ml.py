@@ -23,12 +23,12 @@ def email(pack_state):
     conexao_port = 465
 
     #email e senha para login.
-    username = 'fxflat16@gmail.com' 
-    password = 'gui35452609'
+    username = 'YourGmail' 
+    password = 'YourKey'
 
     #from / to
-    from_email = 'fxflat16@gmail.com'
-    to_email = 'guilhermebonald@hotmail.com'
+    from_email = 'FromYourGmail'
+    to_email = 'ToEveryEmail'
 
     msg = MIMEText(pack_state)
     msg['subject'] = 'Vidro camera LG G6. Status de entrega.'
